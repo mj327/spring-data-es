@@ -1,0 +1,13 @@
+server:
+  port: 9009
+  tomcat.uri-encoding: UTF-8
+
+spring:
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+  data:
+    elasticsearch:
+      # es集群名称
+      cluster-name: es-application
+      # es集群地址
+      cluster-nodes: localhost:9300
